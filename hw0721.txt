@@ -1,0 +1,12 @@
+What we covered?
+- launch EC2 instance to work on cloud-based linux environment
+- connect to aws
+- linux command: pwd, cd, mv
+- git branches, change between them
+- git pull and push, pull request to merge any differences
+- shell basic
+
+Why important?
+- linux is commonly used by developers
+- git is convenient for multiple people working on a same project
+- shell script is powerful to set up tasks to run
