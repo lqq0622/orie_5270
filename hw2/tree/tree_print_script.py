@@ -56,9 +56,7 @@ class Tree(object):
                     if all(x is None for x in node_list):
                         break
 
-            if len(print_list) == 0:
-                return []
-            elif len(print_list) == 1:
+            if len(print_list) == 1:
                 return print_list[0]
             else:
                 print_list_new = []
