@@ -44,4 +44,3 @@ class TestPrintTree(unittest.TestCase):
 
     def test_mix_tree(self):
         assert self.tree5.print_tree() == self.answer5
-
