@@ -9,7 +9,9 @@ class Tree(object):
         self.root = root
 
     def print_tree(self):
-
+        """
+        print the self tree as a list of list, anywhere blank is filled with "|"
+        """
         if self.root is None:
             return []
 
