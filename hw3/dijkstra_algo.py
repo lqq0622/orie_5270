@@ -39,7 +39,8 @@ def readtxt(file_name):
                     new.append([int(neighbour[2 * i][1:]), float(neighbour[2 * i + 1][:-1])])
 
                 graph_dict[int(node)] = new
-
+        
+        reader.close()
         return graph_dict
 
 

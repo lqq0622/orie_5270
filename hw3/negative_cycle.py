@@ -40,6 +40,7 @@ def readtxt(file_name):
 
                 graph_dict[int(node)] = new
 
+        reader.close()
         return graph_dict
 
 
